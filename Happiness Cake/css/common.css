@@ -1,0 +1,137 @@
+/*nav*/
+.w{
+    width: 100%;
+}
+.nav-h{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 78px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+
+}
+.nav-bar{
+    height: 78px;
+    width: 1251px;
+    margin: 0 auto;
+}
+
+.nav-bar h1{
+    float: left;
+}
+.nav-bar h1 a{
+    display: block;
+    height: 45px;
+    width: 217px;
+    margin-top: 15px;
+    background-image: url("../img/logo_big01.png");
+    background-size: contain;
+    color: transparent;
+    font-size: 0;
+}
+
+.location{
+    float: left;
+    margin-top: 29px;
+}
+.location img{
+    display: inline-block;
+    height: 17px;
+    width:11px;
+    margin: 0 7px 0 31px
+}
+
+.location a{
+    margin-left: 13px;
+    padding: 9px;
+    background-color: #ccc;
+    color:#fff
+}
+
+.nav{
+    float: left;
+    margin-left: 66px;
+    height: 78px;
+    line-height: 78px;
+}
+
+.nav li {
+    float: left;
+    margin-right:36px;
+}
+
+.contactme{
+    float: right;
+    margin-top: 29px;
+}
+.contactme img{
+    margin-right: 23px;
+}
+.contactme a{
+    padding:10px;
+    border:1px solid #505050;
+}
+/*footer*/
+
+.fh{
+    height: 125px;
+    background-color: #3e2d23;
+}
+
+.footer{
+    display: block;
+    height: 125px;
+    width: 1251px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer1{
+    margin-top: 40px;
+}
+
+.footer1 .ul1 {
+    float: left;
+}
+.ul1 li{
+    float: left;
+}
+.ul1 li a{
+    padding:0 19px;
+    color: #ffffff;
+}
+.ul1 li:not(:last-child) a{
+    border-right: 1px solid #ffffff;
+}
+
+.footer1 .ul2{
+    float: right;
+}
+
+.ul2 li{
+    float: left;
+}
+.ul2 li a{
+    color: #ffffff;
+    margin-right: 45px;
+}
+
+.footer2{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-top: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.footer2 ul li{
+    display: inline-block;
+    margin: 0 5px;
+    white-space: nowrap;
+    color: #ffffff;
+}
