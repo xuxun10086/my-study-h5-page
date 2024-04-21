@@ -1,0 +1,140 @@
+header{
+    width: 100%;
+    height: 360px;
+    background-color: #00b38a;
+}
+.logo{
+    position: absolute;
+    top:77px;
+    left: 50%;
+    margin-left: -325px;
+    height: 77px;
+    width: 700px;
+    background: url("../img2/logo.png") no-repeat;
+}
+form{
+    position:absolute;
+    top:150px;
+    left:50%;
+    margin-left:-325px;
+    width:686.4px;
+    height:400px;
+    background-color: #ffffff;
+    padding:6px;
+}
+.hd{
+    height:52px;
+    width:686.4px;
+}
+.code{
+    display: inline-block;
+    height:55px;
+    width:55px;
+    padding-right:6px ;
+    background:url("../img2/qrcode-normal.svg") no-repeat;
+}
+.hd-text{
+    display: inline-block;
+    width: 105px;
+    height: 43px;
+    background:url("../img2/wx-login.svg") no-repeat;
+
+}
+.login-form{
+    position: relative;
+    height: 277px;
+    width: 290px;
+    padding: 0 63px;
+    border-right: 1px dashed #000000;
+}
+.lin1{
+    border-bottom: 1px solid #000000;
+    width: 290px;
+    height: 40px;
+}
+.lin1 p{text-align: center;
+
+    height: 40px;
+    width: 145px;
+    float: left;
+    font-size: 18px;
+}
+.lin1 p:nth-of-type(1){
+    color: #00b38a;
+}
+.input input{
+    height: 44px;
+    width: 290px;
+    padding-top: 20px;
+    border-bottom: 1px solid #cccccc;
+    text-indent: 10px;
+}
+.lin4{
+    height: 58px;
+    width: 290px;
+    line-height: 58px;
+
+}
+.lin4 p{
+    float: right;
+    font-size: 12px;
+    color: #00b38a;
+}
+.lin5{
+    height: 48px;
+    width: 290px;
+    background-color: #00b38a;
+    color: #ffffff;
+    font-size: 18px;
+}
+.center-or{
+    position: absolute;
+    height: 16px;
+    width: 14px;
+    line-height: 16px;
+    background-color: #ffffff;
+    font-size: 14px;
+    right: -7px;
+    top: 50%;
+}
+
+.form-right{
+    float: left;
+    height: 138.4px;
+    width: 165px;
+    padding: 80px 0 0 50px;
+}
+.rline1{
+    font-size: 14px;
+    color: #555555;
+}
+.rline2 {
+    font-size: 16px;
+    color: #00b38a;
+    margin-bottom: 44px;
+}
+.rline3{
+    font-size: 14px;
+    color: #555555;
+}
+.rline2 span{
+    float: left;
+}
+.rline2 i{
+    float: left;
+    display: inline-block;
+    height: 17px;
+    width: 18px;
+    margin: 2px 0  0 4px;
+    background-image: url("../img2/icon-arrow-right.png");
+}
+.rline4{
+    white-space: nowrap;
+}
+.rline4 i{
+    display: inline-block;
+    width: 19px;
+    height: 16px;
+    margin:10px 24px 0 0;
+    background-image: url("../img2/icon-wechat.png");
+}
